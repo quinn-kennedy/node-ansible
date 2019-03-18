@@ -3,7 +3,7 @@
   gather_facts: yes
   become: yes
   vars:
-    NODEJS_VERSION: "10.x"
+    nodejs_version: "10.x"
     ansible_distribution_release: "xenial"
   tasks:
     - name: Install the gpg key for nodejs LTS
