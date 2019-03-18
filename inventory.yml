@@ -1,0 +1,6 @@
+all:
+  hosts:
+  children:
+    rest-microservices:
+      hosts:
+        192.168.122.206
